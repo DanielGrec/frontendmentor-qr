@@ -56,6 +56,12 @@ textarea {
 body {
   background-color: hsl(212, 45%, 89%);
   font-family: 'Outfit', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 10rem;
 }
 
 img {
@@ -65,7 +71,6 @@ img {
 .container {
   background-color: hsl(0, 0%, 100%);
   width: 300px;
-  margin: 100px auto;
   padding: 1rem;
   border-radius: 1rem;
   text-align: center;
